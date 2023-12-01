@@ -19,7 +19,7 @@
 ---
 Scan QR Code
 
-1. ***Get [SESSION-ID](https://replit.com/@maccoder74/MAC-Md?v=1) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
+1. ***Get [SESSION-ID](https://gpt-qr-code.onrender.com/) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
 --- 
 # ```Fork Repo```
 2. ***Click [FORK](https://github.com/Maccoder3/MAC-MD/fork)***
@@ -28,49 +28,42 @@ Scan QR Code
 ---
   <hr>
   <h2>Deployments METHODS</h2>
-  <details close>
-    <summary>Click to choose your favorite platform to deploy</summary>
-    <br><br>
-    <h4 align="center">Deploy on Repl.it</h4>
-    <p align="center">
-      <a href="https://repl.it/github/Maccoder3/MAC-MD">
-        <img src="https://repl.it/badge/github/quiec/whatsasena" width="170px" alt="Deploy on REPLIT">
-      </a>
-    </p>
-    <br>
-    <h4 align="center">Deploy on CodesSpace</h4>
-    <p align="center">
-      <a href="https://github.com/codespaces/new">
-        <img src="https://img.shields.io/badge/DEPLOY CODESPACE-h?color=red&style=for-the-badge&logo=visualstudiocode" width="170px" alt="Deploy on CodesSpaces">
-      </a>
-    </p>
-    <br>
-    <h4 align="center">Deploy on Heroku</h4>
-    <p align="center">
-      <a href="https://heroku.com/deploy?template=https://github.com/Maccoder3/MAC-MD">
-        <img src="https://www.herokucdn.com/deploy/button.png" width="170px" alt="Deploy on Heroku">
-      </a>
-    </p>
-    <br>
-    <h4 align="center">Deploy on RailWay</h4>
-    <p align="center">
-      <a href="https://railway.app/new">
-        <img src="https://railway.app/button.svg" alt="Deploy on Railway" width="170px">
-      </a>
-    </p>
-    <br>
-    <h4 align="center">Deploy on Mogenius</h4>
-    <p align="center">
-      <a href="https://studio.mogenius.com/">
-        <img src="https://www.cloudflare.com/static/90073b1e5bd8a0765640a20febb3dc22/mogenius_logo_quer.png" alt="Deploy on Mogenius" width="170px">
-      </a>
-    </p>
-    <br>
-    <h4 align="center">Deploy on Uffizzi</h4>
-<p align="center">
-    <a href="https://www.uffizzi.com/">
-    <img src="https://i.ibb.co/Y29Kv4X/Screenshot-195.png" alt="Deploy on Uffizzi" width="125px">
-    </a>
+ ( No need Do this if you using heroku ) Upload <b>creds.json</b> File in to <b>[`ai_bot_sessions`](ai_bot_sessions)</b> Folder.
+  Or put SESSION_ID to [`settings.js`](/settings.js#L31) <i> : Uploade or Put Session id ( After You Scan You Will be send ```creds.json``` file and ```Session id``` You Can Use Any One From it.)</i> <br> 
+ 4. Deploy Using 
+
+ [`Heroku`](md/deploy_on_heroku.md)  <i> : Click This For more Info </i>
+ 
+ [`Railway`](https://railway.app?referralCode=jDDNQq) <i> : If You Deploy on Railway Connect You Railway account to Your github repo after deploy. </i><br>
+ [`Replit`](md/deploy_on_replit.md) <br>
+ [`Termux`](md/deploy_on_termux.md)
+ 
+<br><br>
+[`CLICK TO GET API KEY`](https://platform.openai.com/docs/) <br> 
+[`PASSWORD VIDEO`](https://youtube.com/shorts/EkLrmE3LDiE?feature=share)<br><br>
+```
+IF you get api key put it .setapi < your api key>   |  ඔබ Api Key එක ලබාගත් පසු .setapi < ඔබගේ api key > ලෙස දමන්න.
+```
+ 
+ 
+ [`EXAMPLE How To Put Api Key`](https://github.com/DarkMakerofc/OpenAi-ChatGPT-Bot/issues/2#issuecomment-1603656922) <i> : Click This if You Don't Know How to put your chatgot api key.</i>
+
+ [`SCREEN SHOT BOT-CHAT`](https://telegra.ph/file/e67c72bd83f2132dc1803.jpg) <i> : Click This If You Want see Example Chat.</i>
+
+ ```
+Version 2.0.0 Updates
+
+> Update Menu 
+> Add New Ai iamge generarter DALL-E
+> Add Restart Command 
+> Add ping Command
+
+🥵 Special
+If you use the bot personally (global.BOT_PRIVATE = true) (.ai) it is not mandatory to put api key for Commnad!
+
+
+but others require apikey ( dall-e )
+if you use on public mod you must put api key
     
 </p>
 
